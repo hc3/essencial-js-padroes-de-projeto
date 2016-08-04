@@ -2,8 +2,8 @@
 tradução do original https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 
 <ul>
-  <li><a href="#">Introdução</a></li>
-  <li><a href="#">O que é um Pattern/Padrão?</a></li>
+  <li><a href="./book/introduction.md">Introdução</a></li>
+  <li><a href="./book/whatisapattern.md">O que é um Pattern/Padrão?</a></li>
   <li><a href="#">"Pattern"-ity Testing(?), Proto-Padrões e regra de três</a></li>
   <li><a href="#">A Estrutura de Padrões de Projeto</a></li>
   <li><a href="#">Criando Design Patterns/Padrões de Projeto/Padrões </a></li>
