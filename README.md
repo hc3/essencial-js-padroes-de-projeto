@@ -13,7 +13,7 @@ tradução do original https://addyosmani.com/resources/essentialjsdesignpattern
   <li>
     <a href="#">Padrões de Projeto JavaScript </a>
     <ul>
-      <li><a href="# ">Constructor Pattern</a></li>
+      <li><a href="#">Constructor Pattern</a></li>
       <li><a href="#">Module Pattern</a></li>
       <li><a href="#">Revealing Module Pattern</a></li>
       <li><a href="#">Singleton Pattern</a></li>
