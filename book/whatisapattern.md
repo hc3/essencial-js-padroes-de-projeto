@@ -6,7 +6,7 @@ Então, porque é importante entender padrões e se familiarizar com eles? Padr�
 
 <ol>
   <li>
-  **Padrões são provedores de soluções:** eles provem solidas maneiras de resolver problemas diários com tecnicas que já foram testadas
+  <b>Padrões são provedores de soluções:</b> eles provem solidas maneiras de resolver problemas diários com tecnicas que já foram testadas
   anteriormente criando assim uma maneira segura para a resolução do problema.
   </li>
 
