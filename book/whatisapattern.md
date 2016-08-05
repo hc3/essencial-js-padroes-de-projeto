@@ -11,12 +11,12 @@ Então, porque é importante entender padrões e se familiarizar com eles? Padr�
   </li>
 
   <li>
-  **Padrões podem ser facilmente reusados:** os padrões normalmente refletem uma solução fora da caixa que pode ser adaptada para
+  <b>Padrões podem ser facilmente reusados:</b> os padrões normalmente refletem uma solução fora da caixa que pode ser adaptada para
   nossa necessidade, criando assim um código mais robusto.
   </li>
 
   <li>
-  **Padrões são expressivos:** Quando nos olhamos para padrões geralmente vemos uma estrutra de fácil entendimento onde o código em sí
+  <b>Padrões são expressivos:</b> Quando nos olhamos para padrões geralmente vemos uma estrutra de fácil entendimento onde o código em sí
   consegue expressar a solução de maneira elegante e clara.
   </li>
 </ol>
