@@ -1,4 +1,4 @@
-#Introdução
+# Introdução
 
 Um dos mais importantes aspectos para escrever códigos sustentáveis é saber onde o código pode ser otimizado e otimiza-lo e nesse momento os padrões de projeto irão ajudar e muito.
 

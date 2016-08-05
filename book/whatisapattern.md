@@ -1,4 +1,4 @@
-#O que é um padrão
+# O que é um padrão
 
 Um padrão é uma solução resusavél que pode ser aplicada a um determinado problema no desenvolvimento de software - no nosso caso - criando código javascript, outra forma pode ser ver os padrões como templates para resolver problemas - e que são usados para situações específicas
 
@@ -73,3 +73,5 @@ Nos provavelmente estamos acostumados com o selector do JQuery $("selector"). is
 Mesmo que já saibamos que querySelectAll() já resolve esse problema, podemos comparar com muitos outros problemas que o usando
 JQuery podem ser resolvidos e podemos até comparar o jQuery com maneiras nativas de resolver o problema, mas não existe contestação
 abstrações usando padrões pode oferecer muito valor ao mundo real.
+
+Veremos muitos outros padrões de projetos nos próximos capitulos.
