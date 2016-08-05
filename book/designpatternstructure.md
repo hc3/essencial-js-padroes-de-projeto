@@ -26,4 +26,4 @@ Com isso em mente, vamos agora ver o sumario dos components para os padrões de 
   <li><b>Discussões</b>- O time sempre deve discutir a adoção de padrões de projeto e se ele vai trazer realmente algum beneficio</li>
 </ul>
 
-Os Padrões de projeto são uma saida poderosa para os problemas enfretados diáriamente pelos desenvolvedores, com eles podemos organizar o time padronizando o código, e com isso criamos melhores soluções.
+Os Padrões de projeto são uma saida poderosa para os problemas enfretados diáriamente pelos desenvolvedores, com eles podemos organizar o time padronizando o código, e com isso criamos melhores soluções e soluções reusaveis e mais fáceis de manter.
