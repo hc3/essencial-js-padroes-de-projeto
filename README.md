@@ -7,11 +7,11 @@ tradução do original https://addyosmani.com/resources/essentialjsdesignpattern
   <li><a href="./book/patternity.md">"Pattern"-ity Testing(?), Proto-Padrões e regra de três</a></li>
   <li><a href="./book/designpatternstructure.md">A Estrutura de Padrões de Projeto</a></li>
   <li><a href="./book/writingdesignpatterns.md">Criando Design Patterns/Padrões de Projeto/Padrões </a></li>
-  <li><a href="#">Anti-Patterns</a></li>
-  <li><a href="#">Categorias de Design Pattern</a></li>
-  <li><a href="#">Tabela Resumo das categorias de Padrão de Projeto</a></li>
+  <li><a href="./book/antipatterns.md">[FALTA] - Anti-Patterns</a></li>
+  <li><a href="./book/categoriesofdesignpatterns.md">[FALTA] - Categorias de Design Pattern</a></li>
+  <li><a href="./book/summarytabledesignpatterns.md">[FALTA] - Tabela Resumo das categorias de Padrão de Projeto</a></li>
   <li>
-    <a href="#">Padrões de Projeto JavaScript </a>
+    <a href="./book/designpatternsjavascript.MD">Padrões de Projeto JavaScript </a>
     <ul>
       <li><a href="#">Constructor Pattern</a></li>
       <li><a href="#">Module Pattern</a></li>

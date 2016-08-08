@@ -1,0 +1,1 @@
+# Categoria de Padrão.

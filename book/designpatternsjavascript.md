@@ -1,0 +1,1 @@
+# Padrões de projeto JavaScript.
