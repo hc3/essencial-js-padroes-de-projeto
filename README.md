@@ -1,4 +1,7 @@
 # essencial-js-padr-es-de-projeto
+
+<img src="./book/imgs/capa.jpg"/>
+
 tradução do original https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 
 <ul>
