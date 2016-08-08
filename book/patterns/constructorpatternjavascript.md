@@ -5,7 +5,7 @@ Nas classicas linguagens orientadas a objetos um construtor é uma método espec
 Objetos construtores são usados para criar tipos específicos de objetos, preparados para usar os argumentos passados para o construtor
 e podemos usar esse argumentos tanto para propriedades como métodos quando o objeto for criado.
 
-<b> Três maneiras de criar um objeto <b>
+<b> Três maneiras de criar um objeto </b>
 ````js
 // criando objeto vazio de três formas diferentes.
 
