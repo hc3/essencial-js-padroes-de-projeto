@@ -1,4 +1,4 @@
-# essencial-js-padr-es-de-projeto
+# Tradução 
 
 <img src="./book/imgs/capa.jpg"/>
 
