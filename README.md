@@ -1,4 +1,4 @@
-# Tradução 
+# Tradução.
 
 <img src="./book/imgs/capa.jpg"/>
 
