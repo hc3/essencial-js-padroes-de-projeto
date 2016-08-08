@@ -1,4 +1,4 @@
-# Padrão construtor.
+# Constructor Pattern
 
 Nas classicas linguagens orientadas a objetos um construtor é uma método especial usado apra incializar um novo objeto criado. Em Javascript tudo são objetos, e nessa sessão vamos nos focar em objetos construtores.
 
