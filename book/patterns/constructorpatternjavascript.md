@@ -96,8 +96,8 @@ console.log( driver.topSpeed );
 
 ## Construtores básicos
 
-O javascript não tem o conceito de classes mas suporta funções construtores que podem criar objetos usando a palavra reservada **this** para referenciar os
-atributos do próprio objeto criado e com o operador **new** podemos criar um novo objeto vamos ver o código:
+O javascript não tem o conceito de classes mas suporta funções construtores que podem criar objetos usando a palavra reservada <b>this</b> para referenciar os
+atributos do próprio objeto criado e com o operador <b>new</b> podemos criar um novo objeto vamos ver o código:
 
 ````js
 function Car( model, year, miles ) {
@@ -154,5 +154,5 @@ var mondeo = new Car( "Ford Mondeo", 2010, 5000 );
 console.log( civic.toString() );
 console.log( mondeo.toString() );
 ````
-Veja que agora só existe uma instância de toString() que está no construtor **Car** e sera compartilhada com todas as instâncias
+Veja que agora só existe uma instância de toString() que está no construtor <b>Car</b> e sera compartilhada com todas as instâncias
 do objeto.
