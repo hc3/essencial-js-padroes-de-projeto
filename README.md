@@ -11,21 +11,21 @@ tradução do original https://addyosmani.com/resources/essentialjsdesignpattern
   <li><a href="./book/categoriesofdesignpatterns.md">[FALTA] - Categorias de Design Pattern</a></li>
   <li><a href="./book/summarytabledesignpatterns.md">[FALTA] - Tabela Resumo das categorias de Padrão de Projeto</a></li>
   <li>
-    <a href="./book/designpatternsjavascript.MD">Padrões de Projeto JavaScript </a>
+    <a href="./book/designpatternsjavascript.md">Padrões de Projeto JavaScript </a>
     <ul>
-      <li><a href="#">Constructor Pattern</a></li>
-      <li><a href="#">Module Pattern</a></li>
-      <li><a href="#">Revealing Module Pattern</a></li>
-      <li><a href="#">Singleton Pattern</a></li>
-      <li><a href="#">Observer Pattern</a></li>
-      <li><a href="#">Mediator Pattern</a></li>
-      <li><a href="#">Prototype Pattern</a></li>
-      <li><a href="#">Command Pattern</a></li>
-      <li><a href="#">Facade Pattern</a></li>
-      <li><a href="#">Factory Pattern</a></li>
-      <li><a href="#">Mixin Pattern</a> </li>
-      <li><a href="#">Decorator Pattern</a></li>
-      <li><a href="#">Flyweight Pattern</a> </li>
+      <li><a href="./book/patterns/constructorpatternjavascript.md">Constructor Pattern</a></li>
+      <li><a href="./book/patterns/modulepatternjavascript.md">Module Pattern</a></li>
+      <li><a href="./book/patterns/">Revealing Module Pattern</a></li>
+      <li><a href="./book/patterns/">Singleton Pattern</a></li>
+      <li><a href="./book/patterns/">Observer Pattern</a></li>
+      <li><a href="./book/patterns/">Mediator Pattern</a></li>
+      <li><a href="./book/patterns/">Prototype Pattern</a></li>
+      <li><a href="./book/patterns/">Command Pattern</a></li>
+      <li><a href="./book/patterns/">Facade Pattern</a></li>
+      <li><a href="./book/patterns/">Factory Pattern</a></li>
+      <li><a href="./book/patterns/">Mixin Pattern</a> </li>
+      <li><a href="./book/patterns/">Decorator Pattern</a></li>
+      <li><a href="./book/patterns/">Flyweight Pattern</a> </li>
     </ul>
   </li>
   <li>
