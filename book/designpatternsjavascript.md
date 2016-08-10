@@ -10,17 +10,17 @@ Dito isto, uma vez que temos um firme aperto de padrões de projeto e os problem
 
 **The patterns we will be exploring in this section are the:**
 <ul>
-<li><a href="./book/patterns/constructorpatternjavascript.md">Constructor Pattern</a></li>
-<li><a href="./book/patterns/">Module Pattern</a></li>
-<li><a href="./book/patterns/">Revealing Module Pattern</a></li>
-<li><a href="./book/patterns/">Singleton Pattern</a></li>
-<li><a href="./book/patterns/">Observer Pattern</a></li>
-<li><a href="./book/patterns/">Mediator Pattern</a></li>
-<li><a href="./book/patterns/">Prototype Pattern</a></li>
-<li><a href="./book/patterns/">Command Pattern</a></li>
-<li><a href="./book/patterns/">Facade Pattern</a></li>
-<li><a href="./book/patterns/">Factory Pattern</a></li>
-<li><a href="./book/patterns/">Mixin Pattern</a></li>
-<li><a href="./book/patterns/">Decorator Pattern</a></li>
-<li><a href="./book/patterns/">Flyweight Pattern</a></li>
+<li><a href="./patterns/constructorpatternjavascript.md">Constructor Pattern</a></li>
+<li><a href="./patterns/modulepatternjavascript.md">Module Pattern</a></li>
+<li><a href="./patterns/revealingmodulepatternjavascript.md">Revealing Module Pattern</a></li>
+<li><a href="./patterns/singletonpatternjavascript.md">Singleton Pattern</a></li>
+<li><a href="./patterns/">Observer Pattern</a></li>
+<li><a href="./patterns/">Mediator Pattern</a></li>
+<li><a href="./patterns/">Prototype Pattern</a></li>
+<li><a href="./patterns/">Command Pattern</a></li>
+<li><a href="./patterns/">Facade Pattern</a></li>
+<li><a href="./patterns/">Factory Pattern</a></li>
+<li><a href="./patterns/">Mixin Pattern</a></li>
+<li><a href="./patterns/">Decorator Pattern</a></li>
+<li><a href="./patterns/">Flyweight Pattern</a></li>
 </ul>
