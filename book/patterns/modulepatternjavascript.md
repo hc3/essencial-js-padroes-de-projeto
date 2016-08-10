@@ -319,4 +319,187 @@ var myModule = (function () {
 })();
 ````
 
-dojo
+### aguardando tradução:
+<b>dojo</b>
+
+Dojo provides a convenience method for working with objects called dojo.setObject(). This takes as its first argument a dot-separated string such as myObj.parent.child which refers to a property called "child" within an object "parent" defined inside "myObj". Using setObject() allows us to set the value of children, creating any of the intermediate objects in the rest of the path passed if they don't already exist.
+
+For example, if we wanted to declare basket.core as an object of the store namespace, this could be achieved as follows using the traditional way:
+
+````js
+var store = window.store || {};
+
+if ( !store["basket"] ) {
+  store.basket = {};
+}
+
+if ( !store.basket["core"] ) {
+  store.basket.core = {};
+}
+
+store.basket.core = {
+  // ...rest of our logic
+};
+````
+
+Or as follows using Dojo 1.7 (AMD-compatible version) and above:
+
+````js
+require(["dojo/_base/customStore"], function( store ){
+
+  // using dojo.setObject()
+  store.setObject( "basket.core", (function() {
+
+      var basket = [];
+
+      function privateMethod() {
+          console.log(basket);
+      }
+
+      return {
+          publicMethod: function(){
+                  privateMethod();
+          }
+      };
+
+  })());
+
+});
+````
+
+For more information on dojo.setObject(), see the official documentation.
+
+<b>ExtJS</b>
+
+For those using Sencha's ExtJS, an example demonstrating how to correctly use the Module pattern with the framework can be found below.
+
+Here, we see an example of how to define a namespace which can then be populated with a module containing both a private and public API. With the exception of some semantic differences, it's quite close to how the Module pattern is implemented in vanilla JavaScript:
+
+````js
+// create namespace
+Ext.namespace("myNameSpace");
+
+// create application
+myNameSpace.app = function () {
+
+  // do NOT access DOM from here; elements don't exist yet
+
+  // private variables
+  var btn1,
+      privVar1 = 11;
+
+  // private functions
+  var btn1Handler = function ( button, event ) {
+      console.log( "privVar1=" + privVar1 );
+      console.log( "this.btn1Text=" + this.btn1Text );
+    };
+
+  // public space
+  return {
+    // public properties, e.g. strings to translate
+    btn1Text: "Button 1",
+
+    // public methods
+    init: function () {
+
+      if ( Ext.Ext2 ) {
+
+        btn1 = new Ext.Button({
+          renderTo: "btn1-ct",
+          text: this.btn1Text,
+          handler: btn1Handler
+        });
+
+      } else {
+
+        btn1 = new Ext.Button( "btn1-ct", {
+          text: this.btn1Text,
+          handler: btn1Handler
+        });
+
+      }
+    }
+  };
+}();
+````
+
+<b>YUI</b>
+
+Similarly, we can also implement the Module pattern when building applications using YUI3. The following example is heavily based on the original YUI Module pattern implementation by Eric Miraglia, but again, isn't vastly different from the vanilla JavaScript version:
+
+````js
+Y.namespace( "store.basket" ) ;
+Y.store.basket = (function () {
+
+    var myPrivateVar, myPrivateMethod;
+
+    // private variables:
+    myPrivateVar = "I can be accessed only within Y.store.basket.";
+
+    // private method:
+    myPrivateMethod = function () {
+        Y.log( "I can be accessed only from within YAHOO.store.basket" );
+    }
+
+    return {
+        myPublicProperty: "I'm a public property.",
+
+        myPublicMethod: function () {
+            Y.log( "I'm a public method." );
+
+            // Within basket, I can access "private" vars and methods:
+            Y.log( myPrivateVar );
+            Y.log( myPrivateMethod() );
+
+            // The native scope of myPublicMethod is store so we can
+            // access public members using "this":
+            Y.log( this.myPublicProperty );
+        }
+    };
+
+})();
+````
+
+<b>jQuery</b>
+
+There are a number of ways in which jQuery code unspecific to plugins can be wrapped inside the Module pattern. Ben Cherry previously suggested an implementation where a function wrapper is used around module definitions in the event of there being a number of commonalities between modules.
+
+In the following example, a library function is defined which declares a new library and automatically binds up the init function to document.ready when new libraries (ie. modules) are created.
+
+````js
+function library( module ) {
+
+  $( function() {
+    if ( module.init ) {
+      module.init();
+    }
+  });
+
+  return module;
+}
+
+var myLibrary = library(function () {
+
+  return {
+    init: function () {
+      // module implementation
+    }
+  };
+}());
+````
+
+<b>Advantages</b>
+
+We've seen why the Constructor pattern can be useful, but why is the Module pattern a good choice? For starters, it's a lot cleaner for developers coming from an object-oriented background than the idea of true encapsulation, at least from a JavaScript perspective.
+
+Secondly, it supports private data - so, in the Module pattern, public parts of our code are able to touch the private parts, however the outside world is unable to touch the class's private parts (no laughing! Oh, and thanks to David Engfer for the joke).
+
+<b>Disadvantages</b>
+
+The disadvantages of the Module pattern are that as we access both public and private members differently, when we wish to change visibility, we actually have to make changes to each place the member was used.
+
+We also can't access private members in methods that are added to the object at a later point. That said, in many cases the Module pattern is still quite useful and when used correctly, certainly has the potential to improve the structure of our application.
+
+Other disadvantages include the inability to create automated unit tests for private members and additional complexity when bugs require hot fixes. It's simply not possible to patch privates. Instead, one must override all public methods which interact with the buggy privates. Developers can't easily extend privates either, so it's worth remembering privates are not as flexible as they may initially appear.
+
+For further reading on the Module pattern, see Ben Cherry's excellent in-depth article on it.
