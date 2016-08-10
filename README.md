@@ -18,7 +18,7 @@ tradução do original https://addyosmani.com/resources/essentialjsdesignpattern
     <ul>
       <li><a href="./book/patterns/constructorpatternjavascript.md">Constructor Pattern</a></li>
       <li><a href="./book/patterns/modulepatternjavascript.md">Module Pattern</a></li>
-      <li><a href="./book/patterns/">Revealing Module Pattern</a></li>
+      <li><a href="./book/patterns/revealingmodulepatternjavascript.md">Revealing Module Pattern</a></li>
       <li><a href="./book/patterns/">Singleton Pattern</a></li>
       <li><a href="./book/patterns/">Observer Pattern</a></li>
       <li><a href="./book/patterns/">Mediator Pattern</a></li>
