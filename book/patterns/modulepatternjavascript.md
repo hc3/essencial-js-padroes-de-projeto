@@ -249,4 +249,74 @@ console.log( basketModule.basket );
 console.log( basket );
 ````
 
-The methods above are effectively namespaced inside basketModule.
+Podemos ver como o scopo da função acima são chamadas imediatamente (IFFE) retornando o valor. Isso nos da uma série de vantagens
+incluindo:
+
+<ul>
+<li>A liberdade de ter funções e atributos privados que só podem ser consumidos por nosso módulo. e com isso deixamos exposto apenas
+a nossa API e isso é considerado verdadeiramente privada</li>
+<li>Dado que as funções são declaradas normalmente como named functions, isso deixa o código mais fácil de depurar</li>
+<li>
+Como T.J Crowder assinalou no passado , também nos permite retornar diferentes funções, dependendo do ambiente. No passado ,
+ eu vi os desenvolvedores usar isso para realizar testes UA , a fim de fornecer um código -path no seu módulo específico para o IE ,
+ mas podemos facilmente optar por detecção de recurso nos dias de hoje para alcançar um objetivo similar.</li>
+</ul>
+
+#### Variações do module Pattern
+
+<b> Import mixins </b>
+Essa variação mostra como variáveis globais ( jQuery , Underscore ) podem ser passadas como argumento para funções anônimas.
+e com isso podemos importar alias locais.
+
+````js
+
+// módulo global
+var myModule = (function ( jQ, _ ) {
+
+    function privateMethod1(){
+        jQ(".container").html("test");
+    }
+
+    function privateMethod2(){
+      console.log( _.min([10, 5, 100, 2, 1000]) );
+    }
+
+    return{
+        publicMethod: function(){
+            privateMethod1();
+        }
+    };
+
+// Pull in jQuery and Underscore
+})( jQuery, _ );
+
+myModule.publicMethod();
+````
+
+<b> Exports </b>
+
+A próxima variação permite que declaremos variáveis globais sem consumi-las que é um concento semelhante ao conceito de importar globais.
+
+````js
+// Módulo global
+var myModule = (function () {
+
+  // Módulo Objeto
+  var module = {},
+    privateVariable = "Hello World";
+
+  function privateMethod() {
+    // ...
+  }
+
+  module.publicProperty = "Foobar";
+  module.publicMethod = function () {
+    console.log( privateVariable );
+  };
+
+  return module;
+
+})();
+````
+
+dojo
