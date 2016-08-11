@@ -20,7 +20,7 @@ tradução do original https://addyosmani.com/resources/essentialjsdesignpattern
       <li><a href="./book/patterns/modulepatternjavascript.md">Module Pattern</a></li>
       <li><a href="./book/patterns/revealingmodulepatternjavascript.md">Revealing Module Pattern</a></li>
       <li><a href="./book/patterns/singletonpatternjavascript.md">Singleton Pattern</a></li>
-      <li><a href="./book/patterns/">Observer Pattern</a></li>
+      <li><a href="./book/patterns/observerpatternjavascript.md">Observer Pattern</a></li>
       <li><a href="./book/patterns/">Mediator Pattern</a></li>
       <li><a href="./book/patterns/">Prototype Pattern</a></li>
       <li><a href="./book/patterns/">Command Pattern</a></li>

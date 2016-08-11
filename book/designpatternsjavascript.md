@@ -14,7 +14,7 @@ Dito isto, uma vez que temos um firme aperto de padrões de projeto e os problem
 <li><a href="./patterns/modulepatternjavascript.md">Module Pattern</a></li>
 <li><a href="./patterns/revealingmodulepatternjavascript.md">Revealing Module Pattern</a></li>
 <li><a href="./patterns/singletonpatternjavascript.md">Singleton Pattern</a></li>
-<li><a href="./patterns/">Observer Pattern</a></li>
+<li><a href="./patterns/observerpatternjavascript.md">Observer Pattern</a></li>
 <li><a href="./patterns/">Mediator Pattern</a></li>
 <li><a href="./patterns/">Prototype Pattern</a></li>
 <li><a href="./patterns/">Command Pattern</a></li>

@@ -1,0 +1,1 @@
+# The Observer Pattern
