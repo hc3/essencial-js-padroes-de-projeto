@@ -167,3 +167,5 @@ function addNewObserver(){
 ````
 
 Nesse exemplo, nos vimos como implementar e utilizar o padrao observer usando os conceitos de Subject, Observer, ConcreteSubject e ConcreteObserver.
+
+## Diferenças entre Observerr e Publish/Subscribe Pattern.
