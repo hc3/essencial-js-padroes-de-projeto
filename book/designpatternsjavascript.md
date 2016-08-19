@@ -21,6 +21,6 @@ Dito isto, uma vez que temos um firme aperto de padrões de projeto e os problem
 <li><a href="./patterns/facadepatternjavascript.md">Facade Pattern</a></li>
 <li><a href="./patterns/factorypatternjavascript.md">Factory Pattern</a></li>
 <li><a href="./patterns/mixinpatternjavascript.md">Mixin Pattern</a></li>
-<li><a href="./patterns/">Decorator Pattern</a></li>
+<li><a href="./patterns/decoratorpatternjavascript.md">Decorator Pattern</a></li>
 <li><a href="./patterns/">Flyweight Pattern</a></li>
 </ul>
