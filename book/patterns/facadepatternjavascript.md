@@ -5,7 +5,7 @@ Quando colocamos uma fachada (facade) , apresentamos uma aparência para o mundo
 
 Fachadas são um padrão estrutural que muitas vezes pode ser visto em bibliotecas JavaScript como jQuery , onde , apesar de uma implementação pode apoiar métodos com uma vasta gama de comportamentos , apenas uma " fachada " ou abstração limitada desses métodos é apresentado ao público para uso.
 
-Isso nos permite interagir com a facade diretamente em vez de o subsistema nos bastidores. Sempre que usamos ````js CSS $ (el) do jQuery () ou .animate $ (el) () métodos ````, na verdade estamos usando um Facade - a interface pública mais simples que evita que tenhamos que chamar manualmente os vários métodos internos no núcleo jQuery necessários para obter algum trabalho comportamento. Isso também evita a necessidade de interagir manualmente com DOM APIs e manter variáveis ​​de estado.
+Isso nos permite interagir com a facade diretamente em vez de o subsistema nos bastidores. Sempre que usamos <b> CSS $ (el) do jQuery () ou .animate $ (el) () métodos </b> na verdade estamos usando um Facade - a interface pública mais simples que evita que tenhamos que chamar manualmente os vários métodos internos no núcleo jQuery necessários para obter algum trabalho comportamento. Isso também evita a necessidade de interagir manualmente com DOM APIs e manter variáveis ​​de estado.
 
 O core do jQuery pode ser considerado um intermediário da abstração. esse fato torna o jQuery tão fácil de usar.
 
@@ -27,7 +27,7 @@ var addMyEvent = function( el,ev,fn ){
 };
 ````
 
-De uma maneira similar , estamos todos familiarizados com ````js $(document).ready ```` do jQuery (..) . Internamente , este está efectivamente a ser alimentado por um método chamado ````js bindReady() ```` , que está a fazer o seguinte:
+De uma maneira similar , estamos todos familiarizados com <b>$(document).ready </b> do jQuery (..) . Internamente , este está efectivamente a ser alimentado por um método chamado <b> bindReady() </b> , que está a fazer o seguinte:
 
 ````js
 bindReady: function() {
@@ -50,7 +50,7 @@ bindReady: function() {
 
 ````
 
-Este é outro exemplo de uma fachada , onde o resto do mundo simplesmente usa a interface limitada exposto por ````js $(document).ready( .. )```` ea implementação mais complexo alimentar é mantido escondido da vista .
+Este é outro exemplo de uma fachada , onde o resto do mundo simplesmente usa a interface limitada exposto por <b> $(document).ready( .. ) </b> ea implementação mais complexo alimentar é mantido escondido da vista .
 
 Facade não só tem que ser usado por conta própria, no entanto. Eles também podem ser integrados com outros padrões , tais como o Module Pattern. Como se pode ver a seguir, a exemplo do Module Pattern contém um certo número de métodos que foram definidos em particular . A facade é então usada para fornecer uma API muito mais simples de acesso a esses métodos:
 
@@ -90,16 +90,16 @@ var module = (function() {
 module.facade( {run: true, val: 10} );
 ````
 
-Neste exemplo , chamando ````js module.facade() ```` irá realmente desencadear um conjunto de comportamentos privados dentro do módulo , mas, novamente , o usuário não está preocupado com isso. nós criamos uma maneira de consumir um recurso sem a necessidade de se preocupar com detalhes de nível de implementação
+Neste exemplo , chamando <b> module.facade() </b> irá realmente desencadear um conjunto de comportamentos privados dentro do módulo , mas, novamente , o usuário não está preocupado com isso. nós criamos uma maneira de consumir um recurso sem a necessidade de se preocupar com detalhes de nível de implementação
 
 ## Notas sobre a abstração
 
-Fachadas geralmente têm algumas desvantagens , mas uma preocupação digno de nota é o desempenho. Ou seja, é preciso determinar se há um custo implícito à abstração que uma facade oferece para a nossa aplicação e em caso afirmativo, se esse custo é justificável. Voltando para a biblioteca jQuery, a maioria de nós estamos conscientes de que tanto ````js getElementById( " identificador" ) ```` e ````js $( " # identificador" ) ```` pode ser usado para consultar um elemento em uma página pelo seu ID.
+Fachadas geralmente têm algumas desvantagens , mas uma preocupação digno de nota é o desempenho. Ou seja, é preciso determinar se há um custo implícito à abstração que uma facade oferece para a nossa aplicação e em caso afirmativo, se esse custo é justificável. Voltando para a biblioteca jQuery, a maioria de nós estamos conscientes de que tanto <b> getElementById( " identificador" ) </b> e <b> $( " # identificador" ) </b> pode ser usado para consultar um elemento em uma página pelo seu ID.
 
-Saiba, porém, que ````js getElementById() ```` no seu próprio é significativamente mais rápido por uma alta ordem de grandeza. Dê uma olhada neste teste JSPerf para ver os resultados em um nível per -browser :
+Saiba, porém, que <b> getElementById() </b> no seu próprio é significativamente mais rápido por uma alta ordem de grandeza. Dê uma olhada neste teste JSPerf para ver os resultados em um nível per -browser :
 
 http://jsperf.com/getelementbyid-vs-jquery-id. Agora, é claro , temos que ter em mente que jQuery (e Sizzle - seu motor selector ) estão fazendo muito mais por trás das cenas para otimizar nossa consulta (e que um objeto jQuery , não apenas um nó DOM é retornado) .
 
-O desafio com este Fachada particular é que , a fim de proporcionar uma função de seletor elegante capaz de aceitar e analisar múltiplos tipos de consultas , existe um custo implícito de abstracção . O usuário não é obrigado a acessar ````js jQuery.getById( " identificador" ) ```` ou ````js jQuery.getByClass( " identificador" ) ```` e assim por diante. Dito isto, o trade-off no desempenho foi testado na prática ao longo dos anos e dado o sucesso do jQuery, uma simples fachada realmente funcionou muito bem para a equipe.
+O desafio com este Fachada particular é que , a fim de proporcionar uma função de seletor elegante capaz de aceitar e analisar múltiplos tipos de consultas , existe um custo implícito de abstracção . O usuário não é obrigado a acessar <b> jQuery.getById( " identificador" ) </b> ou <b> jQuery.getByClass( " identificador" ) </b> e assim por diante. Dito isto, o trade-off no desempenho foi testado na prática ao longo dos anos e dado o sucesso do jQuery, uma simples fachada realmente funcionou muito bem para a equipe.
 
 Ao usar o padrão , tentar estar ciente de quaisquer custos de desempenho envolvidos e fazer uma chamada sobre se eles valem o nível de abstração oferecido.
