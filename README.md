@@ -25,7 +25,7 @@ tradução do original https://addyosmani.com/resources/essentialjsdesignpattern
       <li><a href="./book/patterns/prototypepatternjavascript.md">Prototype Pattern</a></li>
       <li><a href="./book/patterns/commandpatternjavascript.md">Command Pattern</a></li>
       <li><a href="./book/patterns/facadepatternjavascript.md">Facade Pattern</a></li>
-      <li><a href="./book/patterns/">Factory Pattern</a></li>
+      <li><a href="./book/patterns/factorypatternjavascript.md">Factory Pattern</a></li>
       <li><a href="./book/patterns/">Mixin Pattern</a> </li>
       <li><a href="./book/patterns/">Decorator Pattern</a></li>
       <li><a href="./book/patterns/">Flyweight Pattern</a> </li>
