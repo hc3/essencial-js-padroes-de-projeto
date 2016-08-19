@@ -5,7 +5,7 @@ Quando colocamos uma fachada (facade) , apresentamos uma aparência para o mundo
 
 Fachadas são um padrão estrutural que muitas vezes pode ser visto em bibliotecas JavaScript como jQuery , onde , apesar de uma implementação pode apoiar métodos com uma vasta gama de comportamentos , apenas uma " fachada " ou abstração limitada desses métodos é apresentado ao público para uso.
 
-Isso nos permite interagir com a facade diretamente em vez de o subsistema nos bastidores. Sempre que usamos ````jsCSS $ (el) do jQuery () ou .animate $ (el) () métodos ````, na verdade estamos usando um Facade - a interface pública mais simples que evita que tenhamos que chamar manualmente os vários métodos internos no núcleo jQuery necessários para obter algum trabalho comportamento. Isso também evita a necessidade de interagir manualmente com DOM APIs e manter variáveis ​​de estado.
+Isso nos permite interagir com a facade diretamente em vez de o subsistema nos bastidores. Sempre que usamos ````js CSS $ (el) do jQuery () ou .animate $ (el) () métodos ````, na verdade estamos usando um Facade - a interface pública mais simples que evita que tenhamos que chamar manualmente os vários métodos internos no núcleo jQuery necessários para obter algum trabalho comportamento. Isso também evita a necessidade de interagir manualmente com DOM APIs e manter variáveis ​​de estado.
 
 O core do jQuery pode ser considerado um intermediário da abstração. esse fato torna o jQuery tão fácil de usar.
 
@@ -27,7 +27,7 @@ var addMyEvent = function( el,ev,fn ){
 };
 ````
 
-De uma maneira similar , estamos todos familiarizados com ````js$(document).ready```` do jQuery (..) . Internamente , este está efectivamente a ser alimentado por um método chamado ````jsbindReady()```` , que está a fazer o seguinte:
+De uma maneira similar , estamos todos familiarizados com ````js $(document).ready ```` do jQuery (..) . Internamente , este está efectivamente a ser alimentado por um método chamado ````js bindReady() ```` , que está a fazer o seguinte:
 
 ````js
 bindReady: function() {
