@@ -28,7 +28,7 @@ tradução do original https://addyosmani.com/resources/essentialjsdesignpattern
       <li><a href="./book/patterns/factorypatternjavascript.md">Factory Pattern</a></li>
       <li><a href="./book/patterns/mixinpatternjavascript.md">Mixin Pattern</a> </li>
       <li><a href="./book/patterns/decoratorpatternjavascript.md">Decorator Pattern</a></li>
-      <li><a href="./book/patterns/">Flyweight Pattern</a> </li>
+      <li><a href="./book/patterns/detailflyweight.md">Flyweight Pattern</a> </li>
     </ul>
   </li>
   <li>
