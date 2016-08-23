@@ -36,7 +36,7 @@ tradução do original https://addyosmani.com/resources/essentialjsdesignpattern
     <ul>
       <li><a href="./book/mvpatterns/detailmvc.md">MVC Pattern</a></li>
       <li><a href="./book/mvpatterns/detailmvp.md">MVP Pattern</a></li>
-      <li><a href="./book/mvpatterns/">MVVM Pattern</a></li>
+      <li><a href="./book/mvpatterns/detailmvvm.md">MVVM Pattern</a></li>
     </ul>
   </li>
   <li>
