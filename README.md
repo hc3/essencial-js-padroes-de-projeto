@@ -34,8 +34,8 @@ tradução do original https://addyosmani.com/resources/essentialjsdesignpattern
   <li>
     <a href="./book/mvpatterns/detailmvcmvp.md">Padrões JavaScript MV* </a>
     <ul>
-      <li><a href="./book/mvpatterns/">MVC Pattern</a></li>
-      <li><a href="./book/mvpatterns/">MVP Pattern</a></li>
+      <li><a href="./book/mvpatterns/detailmvc.md">MVC Pattern</a></li>
+      <li><a href="./book/mvpatterns/detailmvp.md">MVP Pattern</a></li>
       <li><a href="./book/mvpatterns/">MVVM Pattern</a></li>
     </ul>
   </li>
