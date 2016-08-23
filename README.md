@@ -32,11 +32,11 @@ tradução do original https://addyosmani.com/resources/essentialjsdesignpattern
     </ul>
   </li>
   <li>
-    <a href="#">Padrões JavaScript MV* </a>
+    <a href="./book/mvpatterns/detailmvcmvp.md">Padrões JavaScript MV* </a>
     <ul>
-      <li><a href="#">MVC Pattern</a></li>
-      <li><a href="#">MVP Pattern</a></li>
-      <li><a href="#">MVVM Pattern</a></li>
+      <li><a href="./book/mvpatterns/">MVC Pattern</a></li>
+      <li><a href="./book/mvpatterns/">MVP Pattern</a></li>
+      <li><a href="./book/mvpatterns/">MVVM Pattern</a></li>
     </ul>
   </li>
   <li>
