@@ -93,3 +93,40 @@ sobrecarregada se isso for necessário. isso acontece porque a função privada 
 Objetos com membros públicos que se referem a variáveis privadas também estão sujeitas as notas da regra acima.
 
 O resultado é isso, modules criados com reaviling module pattern podem ser frágeis, se comparados aos módulos criados com o padrão module original então é sempre bom ver e rever o porquê de usar uma patterns module ou revealing module.
+
+<b> Exemplo de aplicação prática </b> - 03/09/2016 - 09:39AM
+
+Fiz uso desse padrão no seguinte problema, eu tinha essas duas funções que irião se repetir em todos os meus controllers:
+````js
+const defaultResponse = (data, statusCode = 200) => ({
+  data,
+  statusCode
+});
+
+const errorResponse = (message, statusCode = 400) => ({
+  error:message
+},statusCode);
+````
+eu removi elas dos controllers criei um novo .js aplicando o padrão reaviling module pattern da seguinte maneira:
+````js
+const callback = (() => {
+
+  const defaultResponse = (data, statusCode = 200) => ({
+    data,
+    statusCode
+  });
+
+  const errorResponse = (message, statusCode = 400) => ({
+    error:message
+  },statusCode);
+
+  return {
+    defaultResponse,
+    errorResponse
+  }
+
+})()
+
+export default callback;
+````
+ficou muito melhor assim, porque agora eu só preciso fazer import desse objeto e chamar o método que preciso dele reduzindo assim a repetição de código.
