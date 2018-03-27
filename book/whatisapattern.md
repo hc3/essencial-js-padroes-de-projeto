@@ -1,6 +1,6 @@
 # O que é um padrão
 
-Um padrão é uma solução resusavél que pode ser aplicada a um determinado problema no desenvolvimento de software - no nosso caso - criando código javascript, outra forma pode ser ver os padrões como templates para resolver problemas - e que são usados para situações específicas
+Um padrão é uma solução reutilizável que pode ser aplicada a um determinado problema no desenvolvimento de software - no nosso caso - criando código javascript, outra forma pode ser ver os padrões como templates para resolver problemas - e que são usados para situações específicas
 
 Então, porque é importante entender padrões e se familiarizar com eles? Padrões de projeto tem três grandes beneficios:
 
