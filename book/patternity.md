@@ -1,16 +1,10 @@
-# A regra de três
+<h1 align = "center"> Teste de "padrão", Padrões-protótipos (proto-padrões) e a Regra de três </h1>
 
-Lembre-se que nem todos os algoritmos ou melhores práticas e soluções podem ser considerados padrões completos. Existe muitos ingredientes
-que formam um padrão, sua generalização pode ser um deles padrões são construidos com o tempo e testados alterados por outros desenvolvedores
-para que enfim se chegue a uma solução generica.
+<p align = "justify">Lembre-se que nem todos os algoritmos, melhores práticas ou soluções representa o que é considerado como padrão completo. Pode haver alguns elementos-chave aqui que estejam faltando e a comunidade dos padrões geralmente desconfia de algo que afirma ser um, a menos que tenha sido fortemente examinado. Mesmo que algo seja apresentado e que pareça satisfazer os critérios de um padrão, não deve ser considerado até que tenha sido submetido a períodos adequados de testes e exames minuciosos.</p>
 
-Vamos voltar para o trabalho de Alexander, ele afirma que padrões devem ser ambos um processo e uma pensamento. A definição é obtusa e propoem
-que o processo deve criar o pensamento. A razão pela qual devemos conseguir visualizar os padrões se for preciso desenhar-los e sua aplicação deve
-ser prática.
+<p align = "justify">Relembrando o trabalho de Alexander mais uma vez, ele afirma que um padrão deve ser um processo e uma "coisa". Essa afirmação é confusa no seu propósito, já que ele segue dizendo que é o processo que deve criar a "coisa". Esta é uma razão pela qual os padrões geralmente se concentram em abordar uma estrutura visualmente identificável, ou seja, devemos ser capazes de representar (ou desenhar) visualmente uma figura representando a estrutura que resulta na colocação do padrão em prática.</p>
 
-Estudando padrões de projeto, não pé irregular usarmos o termo "proto-pattern". Oque é isso? Bem, um padrão que ainda não é conhecido que não passou por testes
-é referenciado como proto-pattern. Proto-patterns são resultados de trabalho de alguém que estabeleceu uma solução especial, que é divulgada para comunidade
-mas que devido ao pouco tempo de existência não pode ser considerado um padrão oficial ( vamos chamar assim ).
+<p align = "justify">Ao estudar padrões de projeto, não é irregular encontrar o termo "proto-padrão". O que é isso? Bem, um padrão que ainda não foi reconhecido para passar nos testes de "padrão", geralmente é chamado de "proto-padrão". Os proto-padrões podem vir do trabalho de alguém que achou uma solução específica e que é digna de ser compartilhada com a comunidade, mas que ainda não teve a oportunidade de ser testada minuciosamente por ter pouco tempo de uso.</p>
 
 O Trabalho envolvido em documentar um padrão de projeto pode ser muito assustador, olhando para trás podemos ver que alguns dos trabalhos de padrões poderiam ser
 considerados "BONS" se ele fez o seguinte:
