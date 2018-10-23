@@ -6,28 +6,17 @@
 
 <p align = "justify">Ao estudar padrões de projeto, não é irregular encontrar o termo "proto-padrão". O que é isso? Bem, um padrão que ainda não foi reconhecido para passar nos testes de "padrão", geralmente é chamado de "proto-padrão". Os proto-padrões podem vir do trabalho de alguém que achou uma solução específica e que é digna de ser compartilhada com a comunidade, mas que ainda não teve a oportunidade de ser testada minuciosamente por ter pouco tempo de uso.</p>
 
-O Trabalho envolvido em documentar um padrão de projeto pode ser muito assustador, olhando para trás podemos ver que alguns dos trabalhos de padrões poderiam ser
-considerados "BONS" se ele fez o seguinte:
+<p align = "justify">Como alternativa, o indivíduo que compartilha o padrão pode não ter o tempo ou o interesse de passar pelo teste de "padrão" e pode, em vez disso, lançar uma breve descrição de seu proto-padrão. Descrições breves ou trechos desse tipo de padrão são conhecidos como patlets.</p>
 
-<ol>
+<p align = "justify">O trabalho envolvido na documentação completa de um padrão qualificado pode ser bastante assustador. Fazendo uma retrospectiva de alguns dos primeiros trabalhos no campo de padrões de design, um padrão pode ser considerado "bom" se fizer o seguinte:</p>
 
-  <li>
-    <b>Resolve um problema particular:</b> Padrões não são feitos para capturar princípios ou stratégias. eles precisam criar soluções.Essa é a razão essencial para um bom padrõa.
-  </li>
+- **Resolve um problema particular:** Os padrões não devem apenas capturar princípios ou estratégias. Eles precisam capturar soluções. Esse é um dos ingredientes mais essenciais para um bom padrão.
 
-  <li>
-    <b>A solução para o problema não pode ser obvia:</b> Podemos achar que tecnicas para resolver problemas podem derivar de princípios bem conhecidos os melhores padrões proveêm soluções para problemas indiretos - isso é considerado necessário para os mais desafiadores problemas relacionados a design.
-  </li>
+- **A solução para o problema não pode ser obvia:** Podemos descobrir que as técnicas de resolução de problemas muitas vezes tentam derivar dos primeiros princípios mais conhecidos. Os melhores padrões de design geralmente fornecem soluções para os problemas indiretamente - isso é considerado uma abordagem necessária para os problemas mais desafiadores relacionados ao design.
 
-  <li>
-    <b>O conceito descrito deve ser comprovado:</b> Padrões de projeto requerem provas de que a função descrita realmente funciona um padrão sem provas não é considerado um padrão sério.
-  </li>
+- **A ideia descrita tem que ser provada:** Padrões de projeto necessitam de provas de que funcionam como descrito pois, sem essa prova, o padrão não pode ser levado a sério. Se um padrão é altamente especulativo por natureza, somente os corajosos podem tentar usá-lo.
 
-  <li>
-    <b>Ele deve descever um relacionamento:</b>Em alguns casos pode parecer que um padrão descreve um tipo de módulo. Embora uma aplicação pode parecer dessa forma, a descrição oficial de um padrão deve ser as estruturas do sistema e os mecanismos que explicam a relação com o código.
-  </li>
-
-</ol>
+- **Deve descrever a relação:** em alguns casos, pode parecer que um padrão descreve um tipo de módulo. Embora uma implementação possa parecer assim, a descrição oficial do padrão deve descrever estruturas e mecanismos de sistemas muito mais profundos e que expliquem sua relação com o código.
 
 Nós não vamos dizer que todos os proto-patterns não ruins ou que irão ter falhas que não devem ser usados e coisa e tal, na verdade
 existem muitos proto-patterns que são realmente bons eu não estou dizendo que não devemos olhar para eles ou que devemos usa-los sem
