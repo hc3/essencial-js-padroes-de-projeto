@@ -22,8 +22,8 @@
 
 <p align = "justify">Um dos requisitos adicionais para um padrão ser válido é que eles exibem algum fenômeno frequente. Isso geralmente é algo que pode ser qualificado em pelo menos três áreas principais, referidas como a regra de três. Para mostrar a frequência usando esta regra, é preciso demonstrar:</p>
 
-1. **Capacidade de propósito:** como o padrão é considerado bem-sucedido?
+1. **Capacidade de propósito** - como o padrão é considerado bem-sucedido?
 
-2. **Utilidade:** por que o padrão é considerado bem-sucedido?
+2. **Utilidade** - por que o padrão é considerado bem-sucedido?
 
-3. **Aplicabilidade:** o design é digno de ser um padrão por que tem aplicabilidade mais ampla? Se for assim, isso precisa ser explicado. Ao revisar ou definir um padrão, é importante manter o que está acima em mente.
+3. **Aplicabilidade** - o design é digno de ser um padrão por que tem aplicabilidade mais ampla? Se for assim, isso precisa ser explicado. Ao revisar ou definir um padrão, é importante manter o que está acima em mente.
