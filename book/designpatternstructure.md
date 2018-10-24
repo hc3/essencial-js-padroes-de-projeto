@@ -19,11 +19,11 @@
 
 - **Projeto** - uma descrição do padrão de projeto e, especialmente, o comportamento do usuário ao interagir com ele.
 
-- **Implementação** – uma dia como o padrão deve ser implementado.
+- **Implementação** – um guia de como o padrão deve ser implementado.
 
 - **Ilustrações** - uma representação visual das classes no padrão (por exemplo, um diagrama).
 
-- **Exemplos** - uma implementação do padrão em uma forma reduzida.
+- **Exemplos** - uma implementação do padrão numa forma reduzida.
 
 - **Pré-requisitos** - quais outros padrões podem ser necessários para auxiliar o uso do padrão descrito?
 
