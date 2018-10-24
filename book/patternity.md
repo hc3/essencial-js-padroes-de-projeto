@@ -18,24 +18,12 @@
 
 - **Deve descrever a relação:** em alguns casos, pode parecer que um padrão descreve um tipo de módulo. Embora uma implementação possa parecer assim, a descrição oficial do padrão deve descrever estruturas e mecanismos de sistemas muito mais profundos e que expliquem sua relação com o código.
 
-Nós não vamos dizer que todos os proto-patterns não ruins ou que irão ter falhas que não devem ser usados e coisa e tal, na verdade
-existem muitos proto-patterns que são realmente bons eu não estou dizendo que não devemos olhar para eles ou que devemos usa-los sem
-olha-los antes mas que sempre vale a penas dar uma pesquisada e ver se ele atende a sua necessidade com a lista acima podemos ter um
-ótimo guia.
+<p align = "justify">Seríamos perdoados em pensar que não vale a pena aprender um proto-padrão que não atenda às indicações, mas isso está longe de ser verdade. Muitos proto-padrões são realmente muito bons. Eu não estou dizendo que todos os proto-padrões valem a pena olhar, mas por aí existe alguns que são utilizáveis e que poderiam nos ajudar em futuros projetos. Use o melhor julgamento com a lista acima em mente e você estará bem em seu processo de seleção.</p>
 
-Uma outra característica que é um requerimento adicional para ser um padrão é atender a três regras básicas conhecidas como regra de três ( rule of three )
-elas serão listadas abaixo:
+<p align = "justify">Um dos requisitos adicionais para um padrão ser válido é que eles exibem algum fenômeno frequente. Isso geralmente é algo que pode ser qualificado em pelo menos três áreas principais, referidas como a regra de três. Para mostrar a frequência usando esta regra, é preciso demonstrar:</p>
 
-<ol>
-  <li>
-    <b>Propósito:</b> como o padrão é considerado um sucesso?
-  </li>
+1. **Capacidade de propósito:** como o padrão é considerado bem-sucedido?
 
-  <li>
-    <b>Utilidade:</b> por que o padrão é considerado um sucesso?
-  </li>
+2. **Utilidade:** por que o padrão é considerado bem-sucedido?
 
-  <li>
-    <b>Aplicabilidade:</b> O padrão funciona porque ele é aplicavel? se sim, precisa ser explicado.
-  </li>
-</ol>
+3. **Aplicabilidade:** o design é digno de ser um padrão por que tem aplicabilidade mais ampla? Se for assim, isso precisa ser explicado. Ao revisar ou definir um padrão, é importante manter o que está acima em mente.
