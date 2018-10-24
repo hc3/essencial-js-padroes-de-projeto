@@ -18,7 +18,7 @@
 
 - **Deve descrever a relação:** em alguns casos, pode parecer que um padrão descreve um tipo de módulo. Embora uma implementação possa parecer assim, a descrição oficial do padrão deve descrever estruturas e mecanismos de sistemas muito mais profundos e que expliquem sua relação com o código.
 
-<p align = "justify">Seríamos perdoados em pensar que não vale a pena aprender um proto-padrão que não atenda às indicações, mas isso está longe de ser verdade. Muitos proto-padrões são realmente muito bons. Eu não estou dizendo que todos os proto-padrões valem a pena olhar, mas por aí existe alguns que são utilizáveis e que poderiam nos ajudar em futuros projetos. Use o melhor julgamento com a lista acima em mente e você estará bem em seu processo de seleção.</p>
+<p align = "justify">Seríamos perdoados em pensar que não vale a pena aprender um proto-padrão que não atenda às indicações, mas isso está longe de ser verdade. Muitos proto-padrões são realmente bons. Eu não estou dizendo que todos os proto-padrões valem a pena olhar, mas por aí existem alguns que são utilizáveis e que poderiam nos ajudar em futuros projetos. Use o melhor julgamento com a lista acima em mente e você estará bem em seu processo de seleção.</p>
 
 <p align = "justify">Um dos requisitos adicionais para um padrão ser válido é que eles exibem algum fenômeno frequente. Isso geralmente é algo que pode ser qualificado em pelo menos três áreas principais, referidas como a regra de três. Para mostrar a frequência usando esta regra, é preciso demonstrar:</p>
 
