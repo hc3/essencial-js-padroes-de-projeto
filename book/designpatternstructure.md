@@ -9,11 +9,11 @@
 
 <p align = "justify">Com isso em mente, vamos ver agora um resumo dos elementos fundamentais para um padrão de projeto. Um padrão de projeto deve ter:</p>
 
-- **Nome do padrão** e **uma descrição**
+- **Nome do padrão** e **uma descrição**.
 
 - **Esboço do contexto** - o contexto em que o padrão é eficaz para responder às necessidades do usuário.
 
-- **Declaração do problema** - declaração do problema para entender a intenção do padrão
+- **Declaração do problema** - declaração do problema para entender a intenção do padrão.
 
 - **Solução** - uma descrição de como o problema do usuário está sendo resolvido em uma lista simples de etapas e percepções.
 
