@@ -1,7 +1,7 @@
 <h1 align = "center">A estrutura de um Padrão de Projeto</h1>
 
 
-<p align = "justify">Você deve estar curioso sobre como um autor de padrões pode abordar a estrutura, a implementação e o propósito de um novo padrão. Um padrão é inicialmente apresentado na forma de uma **regra** que estabelece uma relação entre:</p>
+<p align = "justify">Você deve estar curioso sobre como um autor de padrões pode abordar a estrutura, a implementação e o propósito de um novo padrão. Um padrão é inicialmente apresentado na forma de uma <b>regra</b> que estabelece uma relação entre:</p>
 
 - Um **contexto**
 - Um sistema de **forças** que surge nesse contexto e
