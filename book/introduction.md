@@ -17,3 +17,7 @@ Em 1995 foi publicado o primeiro livro oficial sobre padrões de projeto para so
 O livro do GOF é considerado uma das publicações mais importantes sobre padrões de projeto, lá estão descritos um número de padrões bem como técnicas de desenvolvimento e saídas para problemas que sempre ocorrem no dia-a-dia dos desenvolvedores, no livro os padrões foram divididos em categorias.
 
 Nesse livro nós vamos ver os padrões mais populares usados para no Javascript. 
+
+
+
+<p align = "right"><b><a href="https://github.com/ranielcsar/essencial-js-padroes-de-projeto/blob/master/book/whatisapattern.md">Próximo ></b></a></p>
