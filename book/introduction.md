@@ -20,4 +20,4 @@ Nesse livro nós vamos ver os padrões mais populares usados para no Javascript.
 
 
 
-<p align = "right"><b><a href="https://github.com/ranielcsar/essencial-js-padroes-de-projeto/blob/master/book/whatisapattern.md">O que é um Pattern/Padrão?</b></a></p>
+<p align = "right"><b><a href="https://github.com/ranielcsar/essencial-js-padroes-de-projeto/blob/master/book/whatisapattern.md">O que é um Pattern/Padrão? »</b></a></p>
