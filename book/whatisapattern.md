@@ -75,3 +75,6 @@ JQuery podem ser resolvidos e podemos até comparar o jQuery com maneiras nativa
 abstrações usando padrões pode oferecer muito valor ao mundo real.
 
 Veremos muitos outros padrões de projetos nos próximos capitulos.
+
+
+<p align = "right"><b><a href="https://github.com/ranielcsar/essencial-js-padroes-de-projeto/blob/master/book/patternity.md">Teste de "padrão", Padrões-protótipos (proto-padrões) e a Regra de três »</b></a></p>
