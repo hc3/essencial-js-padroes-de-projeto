@@ -27,3 +27,6 @@
 2. **Utilidade** - por que o padrão é considerado bem-sucedido?
 
 3. **Aplicabilidade** - o design é digno de ser um padrão por que tem aplicabilidade mais ampla? Se for assim, isso precisa ser explicado. Ao revisar ou definir um padrão, é importante manter o que está acima em mente.
+
+
+<p align = "right"><b><a href="https://github.com/ranielcsar/essencial-js-padroes-de-projeto/blob/master/book/designpatternstructure.md">A Estrutura de um Padrão de Projeto »</b></a></p>
