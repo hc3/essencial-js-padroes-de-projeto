@@ -1,4 +1,4 @@
-# O que é um padrão
+# O que é um padrão?
 
 Um padrão é uma solução reutilizável que pode ser aplicada a um determinado problema no desenvolvimento de software - no nosso caso - criando código javascript, outra forma pode ser ver os padrões como templates para resolver problemas - e que são usados para situações específicas
 
