@@ -10,7 +10,7 @@ original: https://addyosmani.com/resources/essentialjsdesignpatterns/book/
   <li><a href="./book/patternity.md">Teste de "padrão", Padrões-protótipos (proto-padrões) e a Regra de três</a></li>
   <li><a href="./book/designpatternstructure.md">A Estrutura de um Padrão de Projeto</a></li>
   <li><a href="./book/writingdesignpatterns.md">Criando Design Patterns/Padrões de Projeto/Padrões </a></li>
-  <li><a href="./book/antipatterns.md">Anti-Patterns</a></li>
+  <li><a href="./book/antipatterns.md">Anti-Padrões</a></li>
   <li><a href="./book/categoriesofdesignpatterns.md">Categorias de Design Pattern</a></li>
   <li><a href="./book/summarytabledesignpatterns.md">Tabela Resumo das categorias de Padrão de Projeto</a></li>
   <li>
