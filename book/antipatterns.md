@@ -1,7 +1,7 @@
 <h1 align = "center">Anti-Padrões</h1>
 
 
-<p align = "justify">Se considerarmos que um padrão representa uma prática recomendada, um antipadrão representa uma lição que foi aprendida. O termo anti-padrões foi assinado em 1995 por Andrew Koenig no Relatório C++ de novembro daquele ano, inspirado no livro <b>Padrões de Design do GoF</b>. No relatório de Koenig, existem duas noções de anti-padrões que são apresentadas. Anti-Padrões:</p>
+<p align = "justify">Se considerarmos que um padrão representa uma prática recomendada, um antipadrão representa uma lição que foi aprendida. O termo anti-padrões foi assinado em 1995 por Andrew Koenig no Relatório C++ de novembro daquele ano, inspirado no livro <b>Padrões de Design do GoF (Gang of Four)</b>. No relatório de Koenig, existem duas noções de anti-padrões que são apresentadas. Anti-Padrões:</p>
 
 - Descreve uma **má** solução para um problema em particular que pode levar a uma situação chata.
 
