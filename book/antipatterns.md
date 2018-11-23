@@ -25,7 +25,7 @@
 
 - Usando JavaScript em uma forma inline, o que o torna inflexível
 
-- O uso de document.write onde alternativas do próprio DOM, como document.createElement, são mais apropriadas. document.write tem sido muito usado ao longo dos anos e tem algumas desvantagens, como exemplo se ele for executado depois que a página carregou, pode acabar sobrescrevendo a página em que estamos, enquanto document.createElement não. <a href = "http://jsfiddle.net/addyosmani/6T9vX/">Aqui</a> podemos ver um exemplo disso em ação. Ele também não funciona com XHTML, que é outra razão para optar por métodos mais amigáveis ao DOM, como document.createElement que é favorável.
+- O uso de document.write em que alternativas do próprio DOM, como document.createElement, são mais apropriadas. document.write tem sido muito usado ao longo dos anos e tem algumas desvantagens, como exemplo se ele for executado depois que a página carregou, pode acabar sobrescrevendo a página em que estamos, enquanto document.createElement não. <a href = "http://jsfiddle.net/addyosmani/6T9vX/">Aqui</a> podemos ver um exemplo disso em ação. Ele também não funciona com XHTML, que é outra razão para optar por métodos mais amigáveis ao DOM, como document.createElement que é favorável.
 
 <p align = "justify">O conhecimento de anti-padrões é essencial para o sucesso. Uma vez que somos capazes de reconhecer tais anti-padrões, somos capazes de refatorar nosso código para evitá-los, para que a qualidade geral de nossas soluções melhore instantaneamente.</p>
 
