@@ -34,3 +34,5 @@
 - **Discussões** - as considerações da equipe ou do autor sobre as vantagens do padrão.
 
 <p align = "justify">Padrões de projeto são uma abordagem bastante poderosa para colocar todos os desenvolvedores em uma organização ou equipe na mesma página, ao criar ou dar suporte em soluções. Se estiver considerando trabalhar em um padrão próprio, lembre-se que, embora possam ter um alto custo inicial nas fases de planejamento e escrita, o lucro desse investimento pode valer a pena. Sempre pesquise cuidadosamente antes de trabalhar em novos padrões, no entanto, você pode achar mais benéfico usar ou construir em cima de padrões já existentes do que começar de novo.</p>
+
+<p align = "right"><a href="https://github.com/ranielcsar/essencial-js-padroes-de-projeto/blob/master/book/writingdesignpatterns.md"><b>Escrevendo Padrões de Projeto »</b></p>
