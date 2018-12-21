@@ -1,16 +1,16 @@
-# Tradução.
+# Tradução não tão literal.
 
 <img src="./book/imgs/capa.jpg"/>
 
-tradução do original https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+original: https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 
 <ul>
   <li><a href="./book/introduction.md">Introdução</a></li>
   <li><a href="./book/whatisapattern.md">O que é um Pattern/Padrão?</a></li>
-  <li><a href="./book/patternity.md">"Pattern"-ity Testing(?), Proto-Padrões e regra de três</a></li>
-  <li><a href="./book/designpatternstructure.md">A Estrutura de Padrões de Projeto</a></li>
+  <li><a href="./book/patternity.md">Teste de "padrão", Padrões-protótipos (proto-padrões) e a Regra de três</a></li>
+  <li><a href="./book/designpatternstructure.md">A Estrutura de um Padrão de Projeto</a></li>
   <li><a href="./book/writingdesignpatterns.md">Criando Design Patterns/Padrões de Projeto/Padrões </a></li>
-  <li><a href="./book/antipatterns.md">Anti-Patterns</a></li>
+  <li><a href="./book/antipatterns.md">Anti-Padrões</a></li>
   <li><a href="./book/categoriesofdesignpatterns.md">Categorias de Design Pattern</a></li>
   <li><a href="./book/summarytabledesignpatterns.md">Tabela Resumo das categorias de Padrão de Projeto</a></li>
   <li>

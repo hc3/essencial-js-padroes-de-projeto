@@ -1,4 +1,4 @@
-# O que é um padrão
+# O que é um padrão?
 
 Um padrão é uma solução reutilizável que pode ser aplicada a um determinado problema no desenvolvimento de software - no nosso caso - criando código javascript, outra forma pode ser ver os padrões como templates para resolver problemas - e que são usados para situações específicas
 
@@ -75,3 +75,6 @@ JQuery podem ser resolvidos e podemos até comparar o jQuery com maneiras nativa
 abstrações usando padrões pode oferecer muito valor ao mundo real.
 
 Veremos muitos outros padrões de projetos nos próximos capitulos.
+
+
+<p align = "right"><b><a href="https://github.com/ranielcsar/essencial-js-padroes-de-projeto/blob/master/book/patternity.md">Teste de "padrão", Padrões-protótipos (proto-padrões) e a Regra de três »</b></a></p>
