@@ -1,14 +1,12 @@
 # Introdução 
 
-Um dos mais importantes aspectos para escrever códigos sustentáveis é saber onde o código pode ser otimizado e otimiza-lo e nesse momento os padrões de projeto irão ajudar e muito.   
+Um dos mais importantes aspectos para escrever códigos sustentáveis é saber onde o código pode ser otimizado e otimiza-lo. Nesse momento os padrões de projeto irão ajudar e muito.   
 
-Na primeira parte desse livro, nós vamos explorar a história e a importância dos padrões de projetos e como eles podem ser aplicados a qualquer linguagem de programação. Se você já sabe sobre tudo isso pode avançar para o próximo capitulo.  
+Na primeira parte desse livro, nós vamos explorar a história e a importância dos padrões de projetos e como eles podem ser aplicados a qualquer linguagem de programação. Se você já sabe sobre tudo isso pode avançar para o próximo capitulo "[O que é um Pattern/Padrão?](https://github.com/ranielcsar/essencial-js-padroes-de-projeto/blob/master/book/whatisapattern.md)" para continuar a leitura.  
 
-Padrões de projetos foram inicialmente usados na arquitetura por Christopher Alexander. Ele escreveu diversas publicações sobrea a sua experiência resolvendo problemas do dia-a-dia de arquiteto. 
+Padrões de projetos foram inicialmente usados na arquitetura por Christopher Alexander. Ele escreveu diversas publicações sobre a sua experiência resolvendo problemas do dia-a-dia de arquiteto. 
 
-Em colaboração com Sara Ishikawa e Murray Solverstein, Alexander criou o linguagem de padrões para criação de design com qualquer escala. 
-
-que foi publicado em 1977 com o titulo original de "A Pattern Language". 
+Em colaboração com Sara Ishikawa e Murray Solverstein, Alexander criou um padrão de linguagem  que ajudaria a capacitar qualquer pessoa que desejasse projetar e construir com escala.  Foi publicado novamente em 1977 com o titulo original de "A Pattern Language".
 
 Então a 30 anos atrás, engenheiros de software começaram a incorporar os princípios criados por Alexander na sua primeira documentação  sobre padrões de projeto, criando assim padrões para criar códigos de programação para que os novos desenvolvedores não tenham que "reinventar a roda".
 
